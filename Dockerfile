@@ -2,6 +2,8 @@ FROM armv7/armhf-ubuntu:14.04
 #FROM ubuntu:14.04
 MAINTAINER STIVW <869862584s@gmail.com>
 
+COPY qemu-arm-static /usr/bin
+
 ENV DEBIAN_FRONTEND noninteractive
 ENV HTTPD_USER www-data
 
