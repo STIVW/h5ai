@@ -1,4 +1,4 @@
-# armv7/armhf-ubuntu:14.04
+# FROM armv7/armhf-ubuntu:14.04
 FROM ubuntu:14.04
 MAINTAINER STIVW <869862584s@gmail.com>
 
